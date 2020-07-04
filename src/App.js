@@ -1,14 +1,10 @@
 import React from 'react';
 import './App.scss';
 
-import PageHeader from './components/PageHeader/PageHeader';
+import AppRouter from './Router';
 
 function App() {
-  return (
-    <div className='App'>
-      <PageHeader />
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;
