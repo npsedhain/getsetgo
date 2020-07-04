@@ -11,7 +11,7 @@ class PageHeader extends React.Component {
         <div className='welcome-message'>Ⓦⓔⓛⓒⓞⓜⓔ ⓣⓞ ⓣⓗⓔ ⓕⓤⓣⓤⓡⓔ!⃝</div>
         <Link to='/register'>
           <div className='arrow-animate'>
-            <img src='/assets/img/hand.png' />
+            <img alt='here>>' src='/assets/img/hand.png' />
             Start here!
           </div>
         </Link>
